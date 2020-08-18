@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+.cerulean {
+  background: #98b2d1;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.cerulean:hover {
+  transform: scale(1.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fuchsia.rose {
+  background: #c74375;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.fuchsia.rose:hover {
+  transform: scale(1.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.true {
+  background: #bf1932;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.true:hover {
+  transform: scale(1.2);
+}
+.aqua {
+  background: #7bc4c4;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.aqua:hover {
+  transform: scale(1.2);
+}
+.tigerlily {
+  background: #e2583e;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.tigerlily:hover {
+  transform: scale(1.2);
+}
+.blue.turquoise {
+  background: #53b0ae;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.blue.turquoise:hover {
+  transform: scale(1.2);
+}
+.sand.dollar {
+  background: #decdbe;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.sand.dollar:hover {
+  transform: scale(1.2);
+}
+.chili.pepper {
+  background: #9b1b30;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.chili.pepper:hover {
+  transform: scale(1.2);
+}
+.blue.iris {
+  background: #5a5b9f;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.blue.iris:hover {
+  transform: scale(1.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mimosa {
+  background: #f0c05a;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.mimosa:hover {
+  transform: scale(1.2);
+}
+.turquoise {
+  background: #45b5aa;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.turquoise:hover {
+  transform: scale(1.2);
+}
+.honeysuckle {
+  background: #d94f70;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.honeysuckle:hover {
+  transform: scale(1.2);
+}
+.cards {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.display-block {
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-none {
+  display: none;
+}
+
+.modal {
+  text-align: center;
 }
